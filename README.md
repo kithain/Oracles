@@ -92,6 +92,7 @@ Tirage:
 - Traits (Ambiance) :** *Violent, Toxique, Incongru*
 
 Décrivez une **Tour de mage**  comme étant : Une tour de mage se dresse de façon **incongrue** au milieu d’un marécage nauséabond. À sa base, des eaux verdâtres et **toxiques** rongent la pierre tandis que des bulles éclatent à intervalles réguliers.
+
 ---
 
 #### Exemple 2 : PNJ
