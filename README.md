@@ -91,8 +91,8 @@ Utilisez les champs descriptifs pour enrichir un lieu ou un objet existant.
 Décrivez une **Tour de mage** (Lieu) comme étant :
 
 - Tarabiscotée  
-- et/ou Brumeuse  
-- et/ou Maudite  
+- **et/ou** Brumeuse  
+- **et/ou** Maudite  
 
 (champ **Traits**)
 
