@@ -23,7 +23,7 @@ Chaque carte générée est un concentré d'éléments narratifs.
 
 | Champ              | Description                                                                 | Usage narratif principal                                                                           |
 | ------------------ | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| **Numéro & Titre** | Le numéro de la carte et la réponse centrale (ex : *Oui, mais…*, *Non, et…*). | **Réponse à une question** : Le cœur de l'oracle.                                                 |
+| **Numéro & Titre** | Le numéro de la carte et la réponse centrale (ex : *Oui, mais…*, *Non, et…*). | **Réponse à une question fermée**                                                  |
 | **Symbole**        | Un emblème figuratif (ex : Dragon, Clef, Torche).                          | **Thème & focalisation** : Indique l'objet ou le concept central de la scène.                     |
 | **Verbes**         | 3 actions/concepts (ex : Vole, Confronte, Raconte).                        | **Action** : Les forces actives dans la scène, ce qui se passe ou doit se passer.                 |
 | **Lieu**           | Un environnement (ex : Auberge de bord de route, Grotte humide).           | **Contexte** : Où l'action se déroule-t-elle ?                                                    |
@@ -72,7 +72,7 @@ Tirez une carte pour générer une rencontre ou pour créer une nouvelle scène 
 - **Verbes** : ce qui se passe ou doit se passer.  
 - **Secret** : intrigue sous-jacente que les joueurs pourraient découvrir.  
 
-#### Défaut de PNJ : générer un PNJ mémorable à la volée
+#### PNJ : générer un PNJ.
 
 - **Identité** : champ *Personnage*.  
 - **Intentions** : champ *Motivation*.  
