@@ -7,15 +7,16 @@ Chaque carte est conçue pour poser une question ou enrichir une scène, un lieu
 
 ## Sommaire
 
-- [1. Structure d'une carte](#1-structure-dune-carte)
-- [2. Modes d'utilisation recommandés](#2-modes-dutilisation-recommandés)
-  - [A. L'oracle (répondre à une question)](#a-loracle-répondre-à-une-question)
-  - [B. Création de scènes & d'intrigues](#b-création-de-scènes--dintrigues)
-  - [C. Ambiance & description](#c-ambiance--description)
-- [Exemple de carte](#exemple-de-carte)
+- [1. Structure d'une carte](#structure-carte)
+- [2. Modes d'utilisation recommandés](#modes-utilisation)
+  - [A. L'oracle (répondre à une question)](#oracle)
+  - [B. Création de scènes & d'intrigues](#scenes-intrigues)
+  - [C. Ambiance & description](#ambiance-description)
+- [Exemple de carte](#exemple-carte)
 
 ---
 
+<a id="structure-carte"></a>
 ## [ 1 ] Structure d'une carte
 
 Chaque carte générée est un concentré d'éléments narratifs.
@@ -36,9 +37,12 @@ Chaque carte générée est un concentré d'éléments narratifs.
 
 ---
 
+<a id="modes-utilisation"></a>
 ## [ 2 ] Modes d'utilisation recommandés
 
+<a id="oracle"></a>
 ### >> [A] L'oracle (répondre à une question)
+
 
 Tirez une carte pour répondre à une question fermée (Oui/Non) posée par les joueurs ou le MJ.
 
@@ -55,6 +59,7 @@ Tirez une carte pour répondre à une question fermée (Oui/Non) posée par les 
 
 ---
 
+<a id="scenes-intrigues"></a>
 ### >> [B] Création de scènes & d'intrigues
 
 Tirez une carte pour générer une rencontre ou pour créer une nouvelle scène lorsque l'intrigue piétine.
@@ -76,6 +81,7 @@ Tirez une carte pour générer une rencontre ou pour créer une nouvelle scène 
 
 ---
 
+<a id="ambiance-description"></a>
 ### >> [C] Ambiance & description
 
 Utilisez les champs descriptifs pour enrichir un lieu ou un objet existant.
@@ -99,6 +105,7 @@ Imaginez un PNJ **Guerrier / Orque** (Personnage) qui, en réalité :
 
 ---
 
+<a id="exemple-carte"></a>
 ## Exemple de carte
 
 ```text
