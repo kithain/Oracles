@@ -33,7 +33,7 @@ Chaque carte générée est un concentré d'éléments narratifs.
 | **Traits**         | 3 adjectifs descriptifs (ex : Coloré, Toxique, Brinquebalant).             | **Ambiance & description** : Qualifie l'objet, le lieu ou l'ambiance générale.                    |
 | **Secret**         | Un lourd passé (ex : A tué un innocent, A passé un pacte avec une entité maléfique). | **Sombre secret** : Potentiel d'intrigue autour d'un PNJ.                                         |
 | **Relation**       | Le lien entre un PJ et un PNJ (ex : Rival, Mentor, Créancier).             | **Lien direct** : Comment le PNJ est-il connecté au groupe ou à un joueur ?                       |
-| **Réaction**       | Une paire amical/hostile (ex : Curieux / Méfiant, Généreux / Égoïste).     | **Comportement du PNJ** : Comment le PNJ se comporte-t-il initialement ?                          |
+| **Réaction**       | Une paire amical/hostile (ex : Curieux / Méfiant, Généreux / Égoïste) **choisir l'une des deux options.**.     | **Comportement du PNJ** : Comment le PNJ se comporte-t-il initialement ?                          |
 
 ---
 
