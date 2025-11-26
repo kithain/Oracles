@@ -23,9 +23,9 @@ Chaque carte générée est un concentré d'éléments narratifs.
 
 | Champ              | Description                                                                 | Usage narratif principal                                                                           |
 | ------------------ | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| **Numéro & Titre** | Le numéro de la carte et la réponse centrale (ex : *Oui, mais…*, *Non, et…*). | **Réponse à une question fermée**                                                  |
-| **Symbole**        | Un emblème figuratif (ex : Dragon, Clef, Torche).                          | **Thème & focalisation** : Indique l'objet ou le concept central de la scène.                     |
-| **Verbes**         | 3 actions/concepts (ex : Vole, Confronte, Raconte).                        | **Action** : Les forces actives dans la scène, ce qui se passe ou doit se passer.                 |
+| **Numéro & Titre** | Le numéro de la carte et la réponse centrale (ex : *Oui, mais…*, *Non, et…*). | **Réponse à une question fermée**                                                              |
+| **Symbole**        | Un emblème figuratif (ex : Dragon, Clef, Torche).                          | **Thème & focalisation**                                                                          |
+| **Verbes**         | 3 actions/concepts (ex : Vole, Confronte, Raconte).                        | **Action**                                                                                        |
 | **Lieu**           | Un environnement (ex : Auberge de bord de route, Grotte humide).           | **Contexte** : Où l'action se déroule-t-elle ?                                                    |
 | **Personnage**     | Un archétype humain ou un monstre (ex : Marchand / Squelette, Sorcier / Géant). | **Acteur** : Qui est impliqué ?                                                                   |
 | **Objet**          | Un item concret (ex : Amulette, Tissu ensanglanté, Outil de voleur).       | **Item** : L'élément matériel que l'on cherche, trouve ou qui est important.                      |
