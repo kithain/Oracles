@@ -2,11 +2,11 @@
 # -*- coding: utf-8 -*-
 
 """
-Générateur de deck "Le Tarot des Royaumes Oubliés" (D&D / JDR Fantastique).
+Générateur de deck (D&D / JDR Fantastique).
 
 - Lit la configuration depuis un fichier JSON.
 - **Demande à l'utilisateur** combien de cartes générer.
-- Vérifie la validité des listes critiques dans la configuration (Robustesse A1).
+- Vérifie la validité des listes critiques dans la configuration.
 - Utilise la distribution de titres définie dans "title_distribution".
 - Produit un fichier texte (obligatoire).
 - Optionnel : produit un DOCX si python-docx est installé.
@@ -325,4 +325,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
