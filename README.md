@@ -74,3 +74,14 @@ Utilisez les champs descriptifs pour enrichir un lieu ou un objet existant :
 ---
 
 ## 📄 Exemple de Carte
+Carte 1 — Non
+Symbole : Dague
+Verbes : Embrasse, Creuse, Soulève
+Lieu : Champs labourés
+Personnage : Sorcier / Géant
+Objet : Pièce d'or
+Motivation : Connaissance
+Traits : Noir, Volé, Facile
+Secret : Est responsable d’un incendie meurtrier
+Relation : Guide
+Réaction (amical/hostile) : Récalcitrant / Violent
