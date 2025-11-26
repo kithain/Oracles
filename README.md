@@ -77,7 +77,7 @@ Tirez une carte pour générer une rencontre ou pour créer une nouvelle scène 
 - **Identité** : champ *Personnage*.  
 - **Intentions** : champ *Motivation*.  
 - **Interaction** : champ *Relation* (lien au groupe) et champ *Réaction* (comportement initial).  
-- **Complexité** : *Traits* (personnalité / apparence) + *Secret* (talon d'Achille).  
+- **Complexité** : *Traits* (personnalité / apparence).  
 - **Secret** : intrigue sous-jacente que les joueurs pourraient découvrir.
 ---
 
