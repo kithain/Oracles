@@ -70,7 +70,7 @@ Tirez une carte pour générer une rencontre ou pour créer une nouvelle scène 
 - **Personnage** : acteur principal.  
 - **Objet** : l'item que le PNJ veut, que les PJ trouvent, ou qui est au cœur du conflit.  
 - **Verbes** : ce qui se passe ou doit se passer.  
-- **Secret** : intrigue sous-jacente que les joueurs pourraient découvrir.  
+
 
 #### PNJ : générer un PNJ.
 
@@ -78,30 +78,33 @@ Tirez une carte pour générer une rencontre ou pour créer une nouvelle scène 
 - **Intentions** : champ *Motivation*.  
 - **Interaction** : champ *Relation* (lien au groupe) et champ *Réaction* (comportement initial).  
 - **Complexité** : *Traits* (personnalité / apparence) + *Secret* (talon d'Achille).  
-
+- **Secret** : intrigue sous-jacente que les joueurs pourraient découvrir.
 ---
 
 <a id="ambiance-description"></a>
 ### >> [C] Ambiance & description
 
-Utilisez les champs descriptifs pour enrichir un lieu ou un objet existant.
+Utilisez les champs descriptifs pour enrichir un lieu ou un personnage.
 
 #### Exemple 1 : Lieu
+Tirage: 
+- Lieu :** *Manoir abandonné*
+- Traits (Ambiance) :** *Violent, Toxique, Incongru*
 
-Décrivez une **Tour de mage** (Lieu) comme étant :
-
-- Tarabiscotée  
-- **et/ou** Brumeuse  
-- **et/ou** Maudite  
-
-(champ **Traits**)
+Décrivez une **Tour de mage**  comme étant : Une tour de mage se dresse de façon **incongrue** au milieu d’un marécage nauséabond. À sa base, des eaux verdâtres et **toxiques** rongent la pierre tandis que des bulles éclatent à intervalles réguliers.
+---
 
 #### Exemple 2 : PNJ
+tirrage :
+- Verbes : Trahit, Observe, Négocie  
+- Personnage : Guerrier / Orque  
+- Motivation : Rédemption  
+- Traits : Balafré, Méfiant, Fatigué  
+- Secret : A livré son ancien clan aux ennemis pour survivre  
+- Relation : Ancien compagnon d’armes d’un PJ  
+- Réaction (amical ou hostile) : Distant / Protecteur
 
-Imaginez un PNJ **Guerrier / Orque** (Personnage) qui, en réalité :
-
-- A trahi quelqu'un pour survivre (**Secret**)  
-- Cherche la Rédemption (**Motivation**)  
+Décrivez un **guerrier balafré** observe le groupe à distance avec **méfiance**. **Distant**, il évite de croiser le regard de son ancien **compagnon d’armes**, écrasé par le **secret de sa trahison**, il et rongé par la culpabilité et est en quête de rédemption.
 
 ---
 
