@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-Générateur de deck (D&D / JDR Fantastique).
+Générateur de cartes d'oracles (D&D / JDR Fantastique).
 
 - Lit la configuration depuis un fichier JSON.
 - **Demande à l'utilisateur** combien de cartes générer.
@@ -327,3 +327,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
