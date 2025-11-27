@@ -1,4 +1,4 @@
-LE TAROT DES ROYAUMES OUBLIÉS — DECK GÉNÉRÉ
+DECK GÉNÉRÉ
 
 ===========================================
 
@@ -351,3 +351,4 @@ LE TAROT DES ROYAUMES OUBLIÉS — DECK GÉNÉRÉ
 *Relation : Employeur                                  *
 *Réaction (amical/hostile) : Étrange / Fuyant          *
 *********************************************************
+
