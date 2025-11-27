@@ -1,0 +1,303 @@
+DECK ORACLE GÉNÉRÉ
+
+==================
+
+Carte 1 — Oui, mais…
+Symbole : Clef
+Verbes : Creuse, Interdit, Interroge
+Lieu : Marais brumeux
+Personnage : Chasseur / Loup-garou
+Objet : Herbes séchées
+Motivation : Héritage
+Traits : Juste, Prudent, Vieux
+Secret : A assassiné quelqu’un par jalousie
+Relation : Adversaire
+Réaction (amical/hostile) : Disponible / Sec
+
+Carte 2 — Oui, mais…
+Symbole : Lanterne
+Verbes : Intoxique, Déclare, Dénonce
+Lieu : Village isolé
+Personnage : Druide / Manticore
+Objet : Flèche
+Motivation : Protection d’un lieu sacré
+Traits : Inculte, Trompeur, Apeuré
+Secret : Est possédé par une entité ou un fragment d’esprit
+Relation : Allié
+Réaction (amical/hostile) : Désagréable / Agressif
+
+Carte 3 — Non, mais…
+Symbole : Totem
+Verbes : Offense, Dénonce, Embrasse
+Lieu : Navire échoué
+Personnage : Druide / Manticore
+Objet : Herbes séchées
+Motivation : Faim
+Traits : Mince, Épuisant, Lumineux
+Secret : A passé un pacte avec une entité maléfique
+Relation : Élève
+Réaction (amical/hostile) : Récalcitrant / Violent
+
+Carte 4 — Oui
+Symbole : Épée
+Verbes : Persuade, Capture, Crie
+Lieu : Tour de mage
+Personnage : Chasseur / Loup-garou
+Objet : Herbes séchées
+Motivation : Obéissance
+Traits : Ouvert, Féminin, Minable
+Secret : A assassiné quelqu’un par jalousie
+Relation : Ami
+Réaction (amical/hostile) : Compatissant / Cruel
+
+Carte 5 — Non, mais…
+Symbole : Portail
+Verbes : Désarme, Confronte, Interdit
+Lieu : Tour de mage
+Personnage : Bandit / Vampire
+Objet : Cloche
+Motivation : Rédemption
+Traits : Noir, Simple, Hardi
+Secret : A assassiné quelqu’un par jalousie
+Relation : Ancienne connaissance
+Réaction (amical/hostile) : Magnanime / Rancunier
+
+Carte 6 — Non, mais…
+Symbole : Portail
+Verbes : Discute, Recule, Chante
+Lieu : Fosse commune
+Personnage : Érudit / Zombie
+Objet : Sacoche
+Motivation : Révolution
+Traits : Frénétique, Catastrophique, Draconien
+Secret : Est recherché pour un crime grave
+Relation : Victime
+Réaction (amical/hostile) : Séduit / Jaloux
+
+Carte 7 — Oui, et…
+Symbole : Dague
+Verbes : Embrasse, Irrite, Séduit
+Lieu : Désert de pierres
+Personnage : Marchand / Squelette
+Objet : Bouclier
+Motivation : Culpabilité
+Traits : Majestueux, Maudit, Malicieux
+Secret : A perdu ses souvenirs
+Relation : Compagnon de route
+Réaction (amical/hostile) : Récalcitrant / Violent
+
+Carte 8 — Oui, mais…
+Symbole : Totem
+Verbes : Cède, Persuade, Crie
+Lieu : Taverne bondée
+Personnage : Marchand / Squelette
+Objet : Flasque
+Motivation : Contrôle
+Traits : Compliqué, Toxique, Célèbre
+Secret : Cache un livre interdit
+Relation : Héritier d’un passé commun
+Réaction (amical/hostile) : Compatissant / Cruel
+
+Carte 9 — Non
+Symbole : Rat
+Verbes : Attend, Tente, Rassemble
+Lieu : Hameau en ruines
+Personnage : Druide / Manticore
+Objet : Potion
+Motivation : Honneur
+Traits : Mort, Humide, Crevassé
+Secret : Est recherché pour un crime grave
+Relation : Simple passant
+Réaction (amical/hostile) : Compréhensif / Abrupt
+
+Carte 10 — Non, et…
+Symbole : Marteau
+Verbes : Pénalise, Séduit, Terrifie
+Lieu : Donjon oublié
+Personnage : Érudit / Zombie
+Objet : Hachette
+Motivation : Justice
+Traits : Démoniaque, Ampoulé, Périlleux
+Secret : A participé à une révolution ou un coup d'état
+Relation : Personne méfiante
+Réaction (amical/hostile) : Séducteur / Arrogant
+
+Carte 11 — Oui, mais…
+Symbole : Épée
+Verbes : Soulève, Approche, Encercle
+Lieu : Grotte humide
+Personnage : Artisan / Kobold
+Objet : Herbes séchées
+Motivation : Richesse
+Traits : Étrange, Ouvert, Modeste
+Secret : Cache un artefact sacré
+Relation : Informateur
+Réaction (amical/hostile) : Désagréable / Agressif
+
+Carte 12 — Oui, et…
+Symbole : Corbeau
+Verbes : Tombe, Ridiculise, Irrite
+Lieu : Caserne militaire
+Personnage : Artisan / Kobold
+Objet : Dague
+Motivation : Héritage
+Traits : Apeuré, Lârd, Tarabiscoté
+Secret : A trahi sa guilde, son ordre ou sa foi
+Relation : Garde du corps
+Réaction (amical/hostile) : Offensé / Critique
+
+Carte 13 — Non, mais…
+Symbole : Rat
+Verbes : Lutte, Intoxique, Rit
+Lieu : Égouts oubliés
+Personnage : Alchimiste / Basilic
+Objet : Bâton
+Motivation : Appartenance à un groupe
+Traits : Pratique, Maudit, Docile
+Secret : A une dette de jeu colossale
+Relation : Ennemi
+Réaction (amical/hostile) : Sceptique / Menteur
+
+Carte 14 — Oui
+Symbole : Bouclier
+Verbes : Unifie, Pénalise, Galope
+Lieu : Arène de combat
+Personnage : Explorateur / Harpie
+Objet : Plume
+Motivation : Liberté
+Traits : Masculin, Pernicieux, Fugace
+Secret : A tué un innocent
+Relation : Élève
+Réaction (amical/hostile) : Généreux / Égoïste
+
+Carte 15 — Oui, et…
+Symbole : Serpent
+Verbes : Dénonce, Attend, Interdit
+Lieu : Sanctuaire caché
+Personnage : Artisan / Kobold
+Objet : Bâton
+Motivation : Protection d’un lieu sacré
+Traits : Minable, Tortueux, Féminin
+Secret : A abandonné ses compagnons en plein danger
+Relation : Obstacle imprévu
+Réaction (amical/hostile) : Magnanime / Rancunier
+
+Carte 16 — Non
+Symbole : Méduse
+Verbes : Prend, Prophétise, Capture
+Lieu : Tour de mage
+Personnage : Sorcier / Géant
+Objet : Relique
+Motivation : Amour
+Traits : Magique, Démoniaque, Rutilant
+Secret : Est responsable d’un incendie meurtrier
+Relation : Contact occasionnel
+Réaction (amical/hostile) : Étrange / Fuyant
+
+Carte 17 — Oui, et…
+Symbole : Talisman
+Verbes : Approche, Prophétise, Enferme
+Lieu : Labyrinthe naturel
+Personnage : Marchand / Squelette
+Objet : Bâton
+Motivation : Destruction
+Traits : Ridé, Violent, Mince
+Secret : Est possédé par une entité ou un fragment d’esprit
+Relation : Débiteur
+Réaction (amical/hostile) : Compréhensif / Abrupt
+
+Carte 18 — Non
+Symbole : Flèche
+Verbes : Vénère, Gêne, Corrompt
+Lieu : Bibliothèque poussiéreuse
+Personnage : Marchand / Squelette
+Objet : Outil de voleur
+Motivation : Appartenance à un groupe
+Traits : Lisse, Périlleux, Fugace
+Secret : A perdu ses souvenirs
+Relation : Gardien d’un secret
+Réaction (amical/hostile) : Récalcitrant / Violent
+
+Carte 19 — Non
+Symbole : Pièce d’or
+Verbes : Lance, Ruse, Souffre
+Lieu : Crypte scellée
+Personnage : Voleur / Rat
+Objet : Torche
+Motivation : Loyauté
+Traits : Élément, Frénétique, Démoniaque
+Secret : A causé la chute d’un ordre, d’un clan ou d’un village
+Relation : Débiteur
+Réaction (amical/hostile) : Généreux / Égoïste
+
+Carte 20 — Oui, et…
+Symbole : Marteau
+Verbes : Sollicite, Crie, Séduit
+Lieu : Égouts oubliés
+Personnage : Érudit / Zombie
+Objet : Cape
+Motivation : Serment rompu à réparer
+Traits : Jeune, Enivrant, Juste
+Secret : A abandonné ses compagnons en plein danger
+Relation : Guide
+Réaction (amical/hostile) : Prévenant / Indifférent
+
+Carte 21 — Non, et…
+Symbole : Chauve-souris
+Verbes : Annonce, Émet, Chante
+Lieu : Champs labourés
+Personnage : Chasseur / Loup-garou
+Objet : Plume
+Motivation : Peur
+Traits : Crevassé, Majestueux, Lisse
+Secret : Cache un livre interdit
+Relation : Ennemi
+Réaction (amical/hostile) : Offensé / Critique
+
+Carte 22 — Non, et…
+Symbole : Gemme
+Verbes : Tend, Corrompt, Amenuise
+Lieu : Observatoire abandonné
+Personnage : Rôdeur / Gnoll
+Objet : Torche
+Motivation : Serment rompu à réparer
+Traits : Pourri, Modeste, Divin
+Secret : Cache un livre interdit
+Relation : Ennemi
+Réaction (amical/hostile) : Offensé / Critique
+
+Carte 23 — Non, mais…
+Symbole : Orc
+Verbes : Piège, Humilie, Vend
+Lieu : Jardin envahi
+Personnage : Rôdeur / Gnoll
+Objet : Outil de voleur
+Motivation : Chaos
+Traits : Démoniaque, Volé, Brûlant
+Secret : A tué un innocent
+Relation : Garde du corps
+Réaction (amical/hostile) : Crédule / Soupçonneux
+
+Carte 24 — Oui, mais…
+Symbole : Talisman
+Verbes : Examine, Prophétise, Invoque
+Lieu : Entrepôt désert
+Personnage : Chasseur / Loup-garou
+Objet : Bouclier
+Motivation : Tradition
+Traits : Ruiné, Pratique, Tarabiscoté
+Secret : Entend parfois une voix qui lui donne des ordres
+Relation : Obstacle imprévu
+Réaction (amical/hostile) : Amusé / Dégoûté
+
+Carte 25 — Non, et…
+Symbole : Fiole
+Verbes : Interdit, Récompense, Ridiculise
+Lieu : Montagne escarpée
+Personnage : Rôdeur / Gnoll
+Objet : Sachet de poudre
+Motivation : Rédemption
+Traits : Compliqué, Ouvert, Droit
+Secret : A passé un pacte avec une entité maléfique
+Relation : Employé
+Réaction (amical/hostile) : Sceptique / Menteur
