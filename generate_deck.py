@@ -5,10 +5,10 @@
 Générateur de cartes d'oracles (D&D / JDR Fantastique).
 
 - Lit la configuration depuis un fichier JSON.
-- **Demande à l'utilisateur** combien de cartes générer.
-- Vérifie la validité des listes critiques dans la configuration.
+- Demande à l'utilisateur combien de cartes générer.
+- Vérifie la validité des listes critiques dans la configuration (Robustesse A1).
 - Utilise la distribution de titres définie dans "title_distribution".
-- Produit un fichier texte (obligatoire).
+- **Produit un fichier texte avec un format encadré (Nouveau)**.
 - Optionnel : produit un DOCX si python-docx est installé.
 
 Usage :
@@ -37,7 +37,7 @@ except ImportError:
 # -----------------------------------------------------
 
 def load_config(config_path: Path) -> dict:
-    """Charge le fichier JSON de configuration (A3: UTF-8)."""
+    """Charge le fichier JSON de configuration (UTF-8)."""
     if not config_path.is_file():
         raise FileNotFoundError(f"Fichier de configuration introuvable : {config_path}")
     try:
@@ -74,7 +74,7 @@ def pick_multiple(source_list: List[Any], count: int) -> List[Any]:
 
 
 def _get_random_field_value(cfg: dict, field_key: str, count: int = 1) -> Union[str, List[str]]:
-    """Récupère un champ depuis la config, gère la sélection simple/multiple (A4)."""
+    """Récupère un champ depuis la config, gère la sélection simple/multiple."""
     source_list = cfg.get(field_key)
     
     if not source_list:
@@ -93,7 +93,6 @@ def _get_random_field_value(cfg: dict, field_key: str, count: int = 1) -> Union[
 def generate_card(index: int, title: str, cfg: dict) -> Dict[str, Any]:
     """
     Génère une carte sous forme de dict, utilisant uniquement les clés du JSON.
-    (Suppression des relations Vampire pour l'allègement)
     """
     card = {
         "number": index,
@@ -113,7 +112,6 @@ def generate_card(index: int, title: str, cfg: dict) -> Dict[str, Any]:
         "borders": _get_random_field_value(cfg, "borders", min(12, len(cfg.get("borders", [])) or 0))
     }
 
-    # Nettoyage des clés vides/inutiles
     return {k: v for k, v in card.items() if v}
 
 
@@ -122,35 +120,63 @@ def generate_card(index: int, title: str, cfg: dict) -> Dict[str, Any]:
 # -----------------------------------------------------
 
 def format_card_as_text(card: dict) -> str:
-    """Retourne une chaîne de caractères formatée pour une carte."""
-    lines = []
-    lines.append(f"Carte {card.get('number')} — {card.get('title')}")
-    lines.append(f"Symbole : {card.get('symbol', '')}")
+    """
+    **Retourne une chaîne de caractères formatée en boîte encadrée d'astérisques.**
+    """
+    # 1. Préparation des lignes de contenu (format "Label : Value")
+    content_lines = []
+    
+    # Titre principal
+    content_lines.append(f"Carte {card.get('number')} — {card.get('title', '')}")
 
-    # Champs simplifiés
     fields = [
-        ("verbs", "Verbes", ", "), ("lieu", "Lieu", ""), ("personnage", "Personnage", ""),
-        ("objet", "Objet", ""), ("emotions", "Émotions", ", "), ("appearance", "Apparence", ""),
-        ("motivation", "Motivation", ""), ("traits", "Traits", ", "), ("secret", "Secret", ""),
-        ("relation", "Relation", "")
+        ("symbol", "Symbole", ""), ("verbs", "Verbes", ", "), ("lieu", "Lieu", ""), 
+        ("personnage", "Personnage", ""), ("objet", "Objet", ""), ("emotions", "Émotions", ", "), 
+        ("appearance", "Apparence", ""), ("motivation", "Motivation", ""), 
+        ("traits", "Traits", ", "), ("secret", "Secret", ""), ("relation", "Relation", "")
     ]
     
     for key, label, separator in fields:
         value = card.get(key)
         if value:
             if isinstance(value, list):
-                lines.append(f"{label} : {separator.join(value)}")
+                content_lines.append(f"{label} : {separator.join(value)}")
             else:
-                lines.append(f"{label} : {value}")
+                content_lines.append(f"{label} : {value}")
 
     if card.get("reaction"):
-        lines.append(f"Réaction (amical/hostile) : {card['reaction']}")
+        # Le format d'affichage doit correspondre exactement à celui de l'utilisateur
+        content_lines.append(f"Réaction (amical/hostile) : {card['reaction']}")
 
     if card.get("borders"):
-        lines.append(f"Thèmes : {', '.join(card['borders'])}")
+        content_lines.append(f"Thèmes : {', '.join(card['borders'])}")
+    
+    if not content_lines:
+        return ""
 
-    lines.append("")
-    return "\n".join(lines)
+    # 2. Détermination de la longueur maximale et du cadre
+    max_len = max(len(line) for line in content_lines)
+    
+    # Largeur de la boîte : longueur max + 2 espaces de chaque côté + 2 astérisques (total + 4)
+    box_width = max_len + 4 
+    
+    top_bottom_line = "*" * box_width
+    
+    # 3. Construction de la carte encadrée
+    boxed_lines = [top_bottom_line]
+    
+    for line in content_lines:
+        # Calcul du padding pour aligner à droite
+        # On utilise un espace de padding de 2, donc (box_width - len(line) - 2 astérisques) / 2
+        # Pour une boîte parfaite, on fait : (longueur totale de la ligne - longueur du contenu - 2)
+        padding = " " * (max_len - len(line))
+        # Format: *Ligne de contenu + padding*
+        boxed_lines.append(f"*{line}{padding} *")
+
+    boxed_lines.append(top_bottom_line)
+    
+    # Ajout d'une ligne vide à la fin pour la séparation entre les cartes
+    return "\n".join(boxed_lines) + "\n"
 
 
 def _find_symbol_image(symbol: str):
@@ -169,11 +195,12 @@ def save_as_txt(cards: List[dict], output_path: str):
     """Enregistre toutes les cartes dans un fichier texte."""
     path = Path(output_path)
     content = []
-    deck_title = "DECK ORACLE GÉNÉRÉ"
+    deck_title = "LE TAROT DES ROYAUMES OUBLIÉS — DECK GÉNÉRÉ"
     content.append(deck_title + "\n")
     content.append("=" * len(deck_title) + "\n")
 
     for card in cards:
+        # Utilisation de la fonction formatée
         content.append(format_card_as_text(card))
 
     path.write_text("\n".join(content), encoding="utf-8")
@@ -233,7 +260,7 @@ def save_as_docx(cards: List[dict], output_path: str):
 
 
 def _prompt_for_card_count(default_count: int) -> int:
-    """A2: Demande à l'utilisateur le nombre de cartes à générer."""
+    """Demande à l'utilisateur le nombre de cartes à générer."""
     while True:
         try:
             prompt = f"Combien de cartes générer ? (Défaut: {default_count}) : "
@@ -252,7 +279,7 @@ def _prompt_for_card_count(default_count: int) -> int:
 
 
 def check_critical_lists(cfg: dict):
-    """A1: Vérifie que les listes essentielles existent et ne sont pas vides."""
+    """Vérifie que les listes essentielles existent et ne sont pas vides."""
     required_keys = [
         "title_distribution", "symbols", "table_verbes", "lieux", 
         "personnages", "objets", "motivations", "traits", 
@@ -265,7 +292,6 @@ def check_critical_lists(cfg: dict):
     for key in required_keys:
         if key not in cfg:
             missing_keys.append(key)
-        # Vérifie si la clé est absente OU si c'est une liste/dict vide/une valeur fausse
         elif not cfg.get(key) or (isinstance(cfg.get(key), (list, dict)) and not cfg.get(key)):
             empty_keys.append(key)
 
@@ -280,21 +306,19 @@ def check_critical_lists(cfg: dict):
 
 
 def main():
-    # A5: Détermination du chemin de la config (plus robuste)
+    # Détermination du chemin de la config (robuste)
     if len(sys.argv) > 1:
-        # Si un argument est passé, on le résout
         config_path = Path(sys.argv[1]).resolve()
     else:
-        # Sinon, on utilise le chemin par défaut (deck_config.json dans le dossier d'exécution)
         config_path = Path("deck_config.json").resolve()
     
     try:
         cfg = load_config(config_path)
 
-        # A1: Vérification de la configuration critique
+        # Vérification de la configuration critique
         check_critical_lists(cfg)
 
-        # A2: Demander le nombre de cartes (écrase le card_count du JSON si l'utilisateur entre une valeur)
+        # Demander le nombre de cartes
         default_count = int(cfg.get("card_count", 100))
         card_count = _prompt_for_card_count(default_count)
 
@@ -325,6 +349,4 @@ def main():
 
 
 if __name__ == "__main__":
-
     main()
-
